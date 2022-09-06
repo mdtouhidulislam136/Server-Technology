@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 2.2 rediraction 3
+#
+# Explain why nothing appears in file "2" echo 2 2> 2
+#
+ 
+stderr fd 2 that's why nothing appears in file "2".
+If we use like echo 2 1> 2 it will work beacuse stdin fd 1.
+
+# End of file

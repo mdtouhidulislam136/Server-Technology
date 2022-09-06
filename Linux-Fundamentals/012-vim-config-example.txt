@@ -1,0 +1,24 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-13
+#
+# Answer to exercise 1.2
+#
+# Write followiing configuration setting to vim(1)
+# configuration file explain each setting in a comment
+# Ans:
+
+set ruler " Always show cursor position
+set nojoinspaces " prevent inserting two spaces
+set showcmd " shows partial commands in the last line of the screen
+set showmatch " it can reduce the need for %, the cursor will briefly jump to the matching brace when you insert one
+set incsearch " Incremental search that shows partial matches
+set ignorecase " Ignore case when searching
+set smartcase " Automatically switch search to case-sensitive when search query contains an uppercase letter
+set nobackup " the backup file is immediately deleted after a successful write
+set autoindent " New lines inherit the indentation of previous lines
+set shiftwidth=4 " When shifting, indent using four spaces
+set softtabstop=4 " four columns(=spaces) the curser moves right and left
+set paste " vim provides the paste option to aid in pasting text unmodified from other applications
+set nolist " hide invisible characters but it doesn't seem to be working
+
+# End of file

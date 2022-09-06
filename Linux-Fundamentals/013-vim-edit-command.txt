@@ -1,0 +1,21 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-13
+#
+# Answer to exercise 1.3
+#
+# VIM commands
+# After each (=), explain how the action is accomplished in the editor by using some key binding(s):
+# Note: we can use this command after pressing shift+esc
+
+beginning of line        = 0
+end of line              = $
+deleting a word          = dw
+deleting a line          = dd
+deleting a paragraph     = shift+v+corsor down+d
+Go to beginning of file  = gg
+Go to end of file        = shift+G
+Copying line(s)          = yy
+Copying paragraph        = select paragraph + yy
+turn on/off line numbers = set number/set nonumber
+
+# End of file

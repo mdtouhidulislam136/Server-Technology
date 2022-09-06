@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-24
+#
+# Answer to exercise 9.4 sort 4
+#
+# Give command to sort the "ls -la" listing by file name.
+#
+#
+ 
+ ls -la | egrep -v 'total' | sort -k 5n -k 8
+ 
+# End of file

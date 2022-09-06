@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 3.2 rediraction 2
+#
+# Explain what does following command do: echo "1 2 3" | cut -d" " -f2
+#
+ 
+we are using the space character as a delimiter and printing the 2nd field
+output 2
+ 
+# End of file

@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 6.5 tar 3
+#
+# Give command to extract the "package.tar.gz" under "/tmp" directory.
+#
+#
+ 
+gzip -dc package.tar.gz | tar -xvf - tmp3
+ 
+# End of file

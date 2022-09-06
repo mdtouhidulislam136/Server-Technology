@@ -1,0 +1,15 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 4.1 rediraction 1
+#
+# Explain what happens in next command and what is the result.
+#
+
+echo "The Result of this command is $(ls -la | wc -l) "
+output: The Result of this command is 4
+echo showing the line of test/string on standard output.
+wc' displays such statistics of a file as number of lines,
+words, characters, bytes and the maximum length of a file.
+
+# End of file

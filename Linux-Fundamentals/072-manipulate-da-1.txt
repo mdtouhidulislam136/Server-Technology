@@ -1,0 +1,50 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 7.2 manipulate data 1
+#
+# Give command to extract unique first names in sorted order:
+#
+#
+
+main command: $ sort names.txt | cut -d" " -f1 | uniq
+details: 
+robin12@Touhidul:~$ cat names.txt | uniq
+Sam Waters
+Joe Cotton
+Mark Spencer
+Lyle Devorak
+Mark Thompson
+Joe Diffie
+Sam Jennings
+robin12@Touhidul:~$ cat names.txt | cut -d" " -f1 | uniq
+Sam
+Joe
+Mark
+Lyle
+Mark
+Joe
+Sam
+robin12@Touhidul:~$ cat names.txt | cut -d" " -f1
+Sam
+Joe
+Mark
+Lyle
+Mark
+Joe
+Sam
+robin12@Touhidul:~$ sort names.txt | cut -d" " -f1
+Joe
+Joe
+Lyle
+Mark
+Mark
+Sam
+Sam
+robin12@Touhidul:~$ sort names.txt | cut -d" " -f1 | uniq
+Joe
+Lyle
+Mark
+Sam
+ 
+# End of file

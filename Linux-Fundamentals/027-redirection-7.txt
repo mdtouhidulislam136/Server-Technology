@@ -1,0 +1,15 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 2.2 rediraction 7
+#
+# Type this command in full, what does it do?
+#
+ 
+cat file << EOF 1> file2
+> hello
+> EOF
+cat: file: No such file or directory
+If we put first line it shows command incomplete then put last two and it show see above
+ 
+# End of file

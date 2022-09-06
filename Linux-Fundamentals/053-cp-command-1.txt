@@ -1,0 +1,17 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 5.3 rediraction 3
+#
+# Explain the following command line options for cp(1) command: -v, -u, -p ,-r
+#
+  
+The cp command is a command-line utility for copying files and directories.
+It supports moving one or more files or folders with options for taking backups and preserving attributes.
+When we use cp -r this will recursively copy a folder and create a copy.
+To show files that are being copied pass the -v option to the cp.
+This prints the files and folders that are being copied to standard output.
+If we want to copy the file only if it is newer than the destination, invoke the command with the -u option.
+When copying a file, the new file is owned by the user running the command. Use the -p option to preserve the file mode
+ 
+# End of file

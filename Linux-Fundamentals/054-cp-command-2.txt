@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 5.4 rediraction 4
+#
+#Give command to make complete backup of all of "~/tmp" directory
+#under "~/tmp.backup". That is, the content of "~/tmp" and all its sub directories are saved.
+#
+ 
+cp -R ~/tmp2 ~/tmp.backup/
+ 
+# End of file

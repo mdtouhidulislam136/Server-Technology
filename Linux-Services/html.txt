@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+        <title>Tip of the Day</title>
+        <style type="text/css">
+            .container {
+                width: 80%;
+                margin: auto;
+                text-align: center;
+            }
+            #totd {
+                width: 80%;
+                height: 500px;
+                frameborder: 2 solid;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            
+            <h1>Welcome to tip of the day program!</h1>
+            <h2>Today's tip is</h2>
+            <p>===============</p>
+
+            <p class="tips">
+                <iframe id="totd" src="/tips/1.txt" ></iframe>
+            </p>
+
+        </div>
+
+        <script>
+            const numOfTips = 14;
+            let todayTip;
+
+            let randomTip = Math.floor(Math.random() * numOfTips) + 1;
+            todayTip = "/tips/" + randomTip + ".txt";
+            
+            var element = document.getElementById("totd");
+            element.src = todayTip;
+        </script>
+    </body>
+</html>

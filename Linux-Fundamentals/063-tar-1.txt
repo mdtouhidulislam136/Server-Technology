@@ -1,0 +1,17 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 6.3 tar 1
+#
+# Give command to create a tar package "package.tar.gz" by backing up everything under
+# *$HOME/tmp/* and its sub directories. Compress tar packet using `gzip(1)
+#
+#
+ 
+$ cd $HOME
+$ tar -cvf package.tar tmp/
+$ gzip --best package.tar
+$ ls -l package*
+package.tar.gz  
+ 
+# End of file

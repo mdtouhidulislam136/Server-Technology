@@ -1,0 +1,19 @@
+1432-s
+id -a mdti
+cat /etc/passwd
+sudo -i
+cd /home/mdti
+id -a mdti
+userdel mdti
+useradd -u 1431 -m -s /bin/bash mdti
+cp -p -r /home/ubuntu/.
+ssh .
+ls -la
+chown -R mdti:mdti .ssh
+cd /etc/sudoers.d
+cp 90-cloud... 91-stec
+
+ssh-copy-id --help
+ssh-copy-id mdti@193.166.24.254
+Copy of the keys. In WSL:
+cp -p -r .ssh backup-ssh-2021..date

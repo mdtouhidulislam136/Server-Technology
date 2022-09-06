@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-24
+#
+# Answer to exercise 8.3 glob 3
+#
+# Give command to list files that have any three letter extension.
+#
+#
+ 
+find . -type f -name "*[0-3]*" -print
+ 
+# End of file

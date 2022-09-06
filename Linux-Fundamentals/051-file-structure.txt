@@ -1,0 +1,39 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 5.1 rediraction 1
+#
+# Create following file hierarchy, e.g under directory `$HOME/tmp'
+#
+  
+robin12@Touhidul:~/tmp$ mkdir some
+robin12@Touhidul:~/tmp$ ls
+some
+robin12@Touhidul:~/tmp$ cd some
+robin12@Touhidul:~/tmp/some$ mkdir dir1
+robin12@Touhidul:~/tmp/some$ mkdir dir2
+robin12@Touhidul:~/tmp/some$ ls
+dir1  dir2
+robin12@Touhidul:~/tmp/some$ cd dir2
+robin12@Touhidul:~/tmp/some/dir2$ mkdir doc1
+robin12@Touhidul:~/tmp/some/dir2$ mkdir doc2
+robin12@Touhidul:~/tmp/some/dir2$ cd doc2
+robin12@Touhidul:~/tmp/some/dir2/doc2$ mkdir test
+robin12@Touhidul:~/tmp/some/dir2/doc2$ ls
+test
+robin12@Touhidul:~/tmp/some/dir2/doc2$ cd test
+robin12@Touhidul:~/tmp/some/dir2/doc2/test$ mkdir more
+robin12@Touhidul:~/tmp/some/dir2/doc2/test$ cd ..
+robin12@Touhidul:~/tmp/some/dir2/doc2$ cd ..
+robin12@Touhidul:~/tmp/some/dir2$ cd ..
+robin12@Touhidul:~/tmp/some$ cd ..
+robin12@Touhidul:~/tmp$ mkdir dir3
+robin12@Touhidul:~/tmp$ cd dir3
+robin12@Touhidul:~/tmp/dir3$ mkdir html
+robin12@Touhidul:~/tmp/dir3$ ls
+html
+robin12@Touhidul:~/tmp/dir3$ cd ..
+robin12@Touhidul:~/tmp$ ls
+dir3  some
+
+# End of file

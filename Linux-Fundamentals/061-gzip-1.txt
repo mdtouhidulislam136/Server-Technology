@@ -1,0 +1,14 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 6.1 gzip 1
+#
+#Give command to compress "file.txt" with `gzip(1)' using best possible compression.
+#
+#
+ 
+robin12@Touhidul:~/tmp3$ gzip file.txt
+robin12@Touhidul:~/tmp3$ ls
+file.txt.gz
+ 
+# End of file

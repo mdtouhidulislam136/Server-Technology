@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 2.2 rediraction 4
+#
+# Which of the command saves an error message to a separate file?
+#
+ 
+A. cat qwerty   1> file.tmp   2> error.log
+B. cat qwerty   2> error.log  1> file.tmp
+
+# End of file

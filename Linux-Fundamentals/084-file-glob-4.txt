@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-24
+#
+# Answer to exercise 8.4 glob 4
+#
+# Give command to use only ONE globbing argument to ls(1) command to list all spelling of *.jpg, *.Jpg, *.JPG etc.
+#
+#
+ 
+
+ 
+# End of file

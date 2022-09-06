@@ -1,0 +1,16 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 6.6 tar 4
+#
+# Give commands to chnage the compression from gzip(1) to bzip2(1). 
+# The end result should be file: package.tar.bz2
+#
+#
+
+$gzip -d package.tar.gz
+package.tar
+$bzip2 --best package.tar
+package.tar.bz2
+ 
+# End of file

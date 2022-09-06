@@ -1,0 +1,10 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-13
+#
+# Answer to exercise 2.1 redirection 1
+#
+# Give command to write current date to a file "date.txt"
+
+date>date.txt
+
+# End of file

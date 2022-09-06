@@ -1,0 +1,47 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 5.2 rediraction 2
+#
+# Start situation
+#
+
+Start situation under "~/tmp/tmp2"
+.
+└── dir1
+    ├── 1.txt
+    ├── 2.txt
+    └── dir2
+        ├── 1.tmp
+        ├── 2.tmp
+        └── here
+            ├── 1.lst
+            └── 2.lst
+
+3 directories, 6 files
+
+#End situation in "~/tmp/tmp2"
+
+robin12@Touhidul:~/tmp2/tmp$ cd dir1
+robin12@Touhidul:~/tmp2/tmp/dir1$ mv 1.txt ~/tmp2/tmp/dir1/dir2/
+robin12@Touhidul:~/tmp2/tmp/dir1/dir2$ mv 1.tmp  ~/tmp2/tmp//dir1/dir2/here/
+robin12@Touhidul:~/tmp2/tmp/dir1/dir2$ mv 2.tmp  ~/tmp2/tmp//dir1/dir2/here/
+robin12@Touhidul:~/tmp2/tmp/dir1/dir2/here$ mv 2.lst ~/tmp2/tmp/dir1/dir2/
+robin12@Touhidul:~/tmp2/tmp/dir1/dir2/here$ mv 1.lst ~/tmp2/tmp/dir1/
+robin12@Touhidul:~/tmp2/tmp$ tree
+
+└── tmp
+    └── dir1
+        ├── 1.lst
+        ├── 2.txt
+        └── dir2
+            ├── 1.txt
+            ├── 2.lst
+            └── here
+                ├── 1.tmp
+                └── 2.tmp
+
+4 directories, 6 files
+
+
+# End of file

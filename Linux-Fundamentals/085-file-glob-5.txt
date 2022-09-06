@@ -1,0 +1,15 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-24
+#
+# Answer to exercise 8.5 glob 5
+#
+# ve command to list all files that look suspicious. A
+# filename is suspicious if it contains anything else but
+#lowercase letters, big letters, numbers, underscores(_) or
+#dashes(-)
+#
+#
+ 
+find . -type f -name "[all]*" -print
+ 
+# End of file

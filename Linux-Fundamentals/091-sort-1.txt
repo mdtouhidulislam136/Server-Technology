@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-24
+#
+# Answer to exercise 9.1 sort 1
+#
+# Give command to sort the database according to *reverse* order by *Last* name.
+#
+#
+ 
+sort -b -f -M file.txt | awk '{print$2}'
+ 
+# End of file

@@ -1,0 +1,10 @@
+# Author: Islam Md Touhidul <mdtouhidul.islam@tuni.fi>
+# Date: 2021-02-16
+#Answer to exercise "1.0 Redirection 1.1"
+
+
+vim: /usr/bin/vim /usr/bin/vim.tiny /usr/bin/vim.basic /etc/vim /usr/share/vim /usr/share/man/man1/vim.1.gz
+configuration:
+file: /usr/bin/file /usr/lib/file /usr/share/file /usr/share/man/man1/file.1.gz
+
+# End of file

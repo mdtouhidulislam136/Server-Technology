@@ -1,0 +1,15 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 7.3 manipulate data 2
+# Give command to extract fields 3 and 1. Fields are separated by commas.
+# 
+#
+#
+ 
+robin12@Touhidul:~$ cat data.txt | cut -d, -f1,3
+Mike Johnson, New York
+Dan Doyle, Washington
+Ed Madison, Boston
+ 
+# End of file

@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-24
+#
+# Answer to exercise 9.3 sort 3
+#
+# Give command to sort the database according to *local* phone number field.
+#
+#
+ 
+sort -b -f -n file.txt | awk '{print$3}'
+ 
+# End of file

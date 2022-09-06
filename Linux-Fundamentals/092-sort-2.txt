@@ -1,0 +1,19 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-24
+#
+# Answer to exercise 9.2 sort 2
+#
+#Give command to sort the database according to whole *phone* number field.
+#
+#
+ 
+robin12@Touhidul:~$ sort -b -f -n file.txt | awk '{print$3}'
+4-5587
+1-3745
+9-3545
+7-7989
+4-6122
+5-5972
+2-3876
+ 
+# End of file

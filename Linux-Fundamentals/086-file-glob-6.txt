@@ -1,0 +1,12 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-24
+#
+# Answer to exercise 8.6 glob 6
+#
+# 
+#
+#
+ 
+
+ 
+# End of file

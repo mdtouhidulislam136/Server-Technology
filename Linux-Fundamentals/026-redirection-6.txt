@@ -1,0 +1,22 @@
+# Author: Md Touhidul Islam <mdtouhidul.islam@tuni.fi>
+# Date: 2021-03-22
+#
+# Answer to exercise 2.2 rediraction 6
+#
+# Explain what happens in the following command: touch ls ls < ls > ls
+#
+
+touch ls create ls file
+ls <ls> ls that create a list. All file show in a list.
+robin12@Touhidul:~/tmp2$ touch ls
+robin12@Touhidul:~/tmp2$ ls
+ls  suny.tmp  test.tmp
+robin12@Touhidul:~/tmp2$ cat ls
+robin12@Touhidul:~/tmp2$ cat ls
+robin12@Touhidul:~/tmp2$ ls < ls > ls
+robin12@Touhidul:~/tmp2$ cat ls
+ls
+suny.tmp
+test.tmp
+
+# End of file
